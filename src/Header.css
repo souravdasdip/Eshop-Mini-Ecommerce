@@ -1,0 +1,65 @@
+.header__area {
+  background-color: #fff;
+  height: 4rem !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 4em;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links > a {
+  margin-right: 3rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.links > a::selection {
+  color: teal;
+}
+
+.links > a:nth-child(4) {
+  margin-right: 0px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  object-fit: contain;
+  padding: 5px 0;
+}
+
+.header__logo {
+  flex: 1;
+}
+
+.header__link {
+  /* color: antiquewhite; */
+  text-decoration: none;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__optionBusket {
+  /* color: antiquewhite; */
+  text-decoration: none;
+}
+
+a.header__link > span {
+  color: white;
+}

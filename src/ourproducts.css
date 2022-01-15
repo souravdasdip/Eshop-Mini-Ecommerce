@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftsidebar{
+    width: 15%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.rightside{
+    width: 80%;
+}

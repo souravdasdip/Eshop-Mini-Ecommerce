@@ -1,0 +1,37 @@
+.checkout__page {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.chackout__product{
+    flex: 1;
+}
+
+.before__checkout{
+    flex-direction: row;
+    display: flex;
+    width: 60vw;
+    justify-content: space-evenly;
+    height: 20vh;
+}
+
+.before__checkout>img{
+    height: 100%;
+}
+
+
+.checkoutProduct__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.subtotal{
+    padding: 2rem;
+    display: grid;
+    grid-gap: .5rem;
+    position: sticky;
+    top: 5rem;
+}

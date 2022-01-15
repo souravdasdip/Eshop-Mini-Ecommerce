@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(-225deg, #E3FDF5 0%, rgba(63, 61, 86, 0.2) 100%);
+  overflow-x: hidden;
+  font-family: 'Antic Slab', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Comfortaa', cursive;
+}
+
